@@ -3,7 +3,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2021/07/17/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.<span id="more"></span></p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
@@ -21,7 +21,7 @@
   <entry>
     <title>欢迎来到 PossibleVing 的小站</title>
     <url>/2021/07/18/about-my-website/</url>
-    <content><![CDATA[<h1 id="你好鸭，我是-PossibleVing"><a href="#你好鸭，我是-PossibleVing" class="headerlink" title="你好鸭，我是 PossibleVing ~"></a>你好鸭，我是 PossibleVing ~</h1><p><img src="/about-my-website/20210718123809056.png"><br>我，一个啥也不懂的小白，终于花了两天时间，搭建了我的个人博客，由 <strong>Hexo</strong> 强力驱动，使用 <a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 作为主题。</p>
+    <content><![CDATA[<h1 id="你好鸭，我是-PossibleVing"><a href="#你好鸭，我是-PossibleVing" class="headerlink" title="你好鸭，我是 PossibleVing ~"></a>你好鸭，我是 PossibleVing ~</h1><p><img src="/about-my-website/20210718123809056.png"><br>我，一个啥也不懂的小白，终于花了两天时间，搭建了我的个人博客，由 <strong>Hexo</strong> 强力驱动，使用 <a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a> 作为主题。<span id="more"></span></p>
 <hr>
 <p>下面，我想记录一下我的折腾历程~</p>
 <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>其实我早就有建站的想法了，但是我清楚地认识到一个事实，那就是<strong>我的技术不达标</strong>。<br>举个例子：我们班上有个技术大佬（我这次构建博客也找他交流过技术[doge]），在听说我不会 HTML 之后，是这样说的：<br><img src="/about-my-website/20210718123002207.png"></p>
