@@ -9,18 +9,18 @@
 <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>其实我早就有建站的想法了，但是我清楚地认识到一个事实，那就是<strong>我的技术不达标</strong>。<br>举个例子：我们班上有个技术大佬（我这次构建博客也找他交流过技术），在听说我不会 HTML 之后，是这样说的：<br><img src="https://i.loli.net/2021/07/18/JxdEVrYPXh7ROIF.png"><br>好家伙，合着我应该是还没出生？！</p>
 <hr>
 <p>出于对我技术能力的自知之明，因此建站这事儿我都准备放在大学再研究了。</p>
-<p>后来有天，杨总<em>（因为上文所述的这位大佬姓杨，我们都叫他“杨总”）</em>有了一个 Hexo 博客：<a href="https://testgifts.tech/">https://testgifts.tech/</a><br>很快啊，我啪的一下就点进去了[doge]，看上去不错：</p>
+<p>后来有天，杨总<em>（因为上文所述的这位大佬姓杨，我们都叫他“杨总”）</em>有了一个 Hexo 博客：<a href="https://testgifts.tech/">https://testgifts.tech/</a><br>很快啊，我啪的一下就点进去了[doge]，看上去不错~</p>
 <p>所以呢，我萌生了做个博客的想法。但也只是“想法”而已。至少在我的固有思维中，建一个个人博客，是一件很麻烦的事情。<br>不过这两天我放假了。尽管高二升高三的暑假很短，但我想趁这段时间试试。一试才知道，搭建个 Hexo 博客<strong>并不难</strong>。</p>
 <h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><p>一开始，我是知道可以在 GitHub Pages 上做静态网页的，只是不清楚怎么弄。所以，我参考了一个“简单”的替换网页教程：<a href="https://zhuanlan.zhihu.com/p/74778630">不需懂代码，10分钟在Github搭建免费且已成型的个人博客网站</a>。<br>但后来发现有亿点麻烦：要替换的东西太多了。而且呢，做出来的东西也不是我想要的风格。于是我打算从头搞一个。</p>
-<h3 id="以下是错误示范！"><a href="#以下是错误示范！" class="headerlink" title="以下是错误示范！"></a>以下是错误示范！</h3><p>我也不知道为什么（救命，我现在也很迷惑……），一开始就在 GitHub 上找了一个主题 <a href="https://github.com/bollnh/hexo-theme-material">Material</a>，这是一个 Material Design 风格的 Hexo 主题。<br><img src="https://i.loli.net/2021/07/18/qr8TSfEj9bQznhV.png"><br>还不错对吧？<br>问题就出在我直接把这个主题 Fork 到我的 Pages 仓库下，然后就准备打开网页……<br>……<br>笑死，根本没有网页。。。404，懂？<br><img src="https://i.loli.net/2021/07/18/syETQBH4KtqPdD3.png" alt="20210718085400826.png"></p>
+<h3 id="以下是错误示范！"><a href="#以下是错误示范！" class="headerlink" title="以下是错误示范！"></a>以下是错误示范！</h3><p>我也不知道为什么（救命，我现在也很迷惑……），一开始就在 GitHub 上找了一个主题 <a href="https://github.com/bollnh/hexo-theme-material">Material</a>，这是一个 Material Design 风格的 Hexo 主题。<br><img src="https://i.loli.net/2021/07/18/qr8TSfEj9bQznhV.png"><br>还不错对吧？<br>问题就出在我直接把这个主题 Fork 到我的 Pages 仓库下，然后就准备打开网页……<br>……<br>笑死，根本没有网页。。。404，懂？<br><img src="https://i.loli.net/2021/07/18/syETQBH4KtqPdD3.png"></p>
 <hr>
 <p>和杨总的仓库一对比，给我的直观感受是：<br><em>“哦，好像是没有 index.html 呢！”</em></p>
 <blockquote>
 <p>对于当时我这个门外汉来说，Hexo 的主题配置文件夹和 /Public 目录是真的没啥区别。。。</p>
 </blockquote>
-<p>然后，你们应该以为我是去百度解决方案了吧？<br><strong>然鹅并没有。</strong>相反的是我思路清奇，找到原作者的 demo 网页，右键-查看页面源代码；再在 GitHub Pages 仓库根目录下新建一个 index.html。两边一复制，一粘贴：哈，我真是个小天才！<br>结果是这样的：<br><img src="https://i.loli.net/2021/07/18/h3ZoaygAdwOIx4R.png" alt="20210718084252109.png"><br>这波啊，这波我看啊，是意料之中。问了杨总，他说：<br><em>“我能说，你这个，就html文件生效了吗？”</em><br>呃，好像……是的。<br><img src="https://i.loli.net/2021/07/18/isH9NAZexTPQzcl.png" alt="20210718085222330.png"></p>
+<p>然后，你们应该以为我是去百度解决方案了吧？<br><strong>然鹅并没有。</strong>相反的是我思路清奇，找到原作者的 demo 网页，右键-查看页面源代码；再在 GitHub Pages 仓库根目录下新建一个 index.html。两边一复制，一粘贴：哈，我真是个小天才！<br>结果是这样的：<br><img src="https://i.loli.net/2021/07/18/h3ZoaygAdwOIx4R.png"><br>这波啊，这波我看啊，是意料之中。问了杨总，他说：<br><em>“我能说，你这个，就html文件生效了吗？”</em><br>呃，好像……是的。<br><img src="https://i.loli.net/2021/07/18/isH9NAZexTPQzcl.png"></p>
 <hr>
-<p>到最后，我也没折腾出来。这时候我都不好意思问杨总了，只能再问问我能不能把他的博客再 Folk 一份。<br><strong>杨总终于忍不住了：</strong><br><img src="https://i.loli.net/2021/07/18/GhFqTAfOy37ise8.png" alt="20210718085516461.png"><br><strong>对啊，我咋没想到呢？！</strong><br>一搜，果不其然，网上一大堆教程</p>
+<p>到最后，我也没折腾出来。这时候我都不好意思问杨总了，只能再问问我能不能把他的博客再 Folk 一份。<br><strong>杨总终于忍不住了：</strong><br><img src="https://i.loli.net/2021/07/18/GhFqTAfOy37ise8.png"><br><strong>对啊，我咋没想到呢？！</strong><br>一搜，果不其然，网上一大堆教程</p>
 <h3 id="以下是正确示范"><a href="#以下是正确示范" class="headerlink" title="以下是正确示范~"></a>以下是正确示范~</h3><blockquote>
 <p>之前我在折腾一些奇怪的东西（比如 Linux）就会问杨总一些问题，有很多次他都说让我去百度。<del>我一开始以为他在敷衍我</del>（逃~），后来才知道有的东西一搜就有。<br>所以这个故事告诉我们，有些看似不好解决的技术难题，其实网上都有解决方法，一定要善用搜索。我曾混迹于<a href="https://bbs.deepin.org/">深度科技论坛</a>，见过太多人把一些早就有解决方法的问题反复发帖求助，引发其他用户不满。<br>除了搜索，读技术文档也是需要的。上网求助并不意味着我们就要做个“伸手党”，有些操作背后的原理也应该吃透。<br><strong>技术这东西，学到了，才是自己的。</strong></p>
 </blockquote>
@@ -28,16 +28,16 @@
 <blockquote>
 <p>一顿操作猛如虎，定睛一看，原地杵！——电影《飞驰人生》</p>
 </blockquote>
-<p>Material 的官方文档比较笼统， Troubleshooting 比较少。一看 Issues 提这个问题的也挺多，但解决方法我试了，在我这边都没用。<br><img src="https://i.loli.net/2021/07/18/6NKuHTqULQPYMC2.png" alt="20210718093357556.png"><br>咋办呢？我换了个主题——<a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a>。<br>对就是大家现在看到的这个。</p>
+<p>Material 的官方文档比较笼统， Troubleshooting 比较少。一看 Issues 提这个问题的也挺多，但解决方法我试了，在我这边都没用。<br><img src="https://i.loli.net/2021/07/18/6NKuHTqULQPYMC2.png"><br>咋办呢？我换了个主题——<a href="https://github.com/Shen-Yu/hexo-theme-ayer">Ayer</a>。<br>对就是大家现在看到的这个。</p>
 <hr>
 <p>在这个主题下，配置稳如老狗[doge]。<strong>经过一系列个性化设置后，我的个人博客就诞生了！~</strong></p>
-<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>至此，我的博客就建好了。<strong>对于网站主体，我一行代码都没敲~</strong><br>值得一提的是，这个主题提供了一些不错的自定义选项，<del>用于装逼</del>用于美化。比如：<br>这是船新的 Cursor 和点击特效~<br><img src="https://i.loli.net/2021/07/18/vjWGLKoZxzAQ6H9.gif" alt="GIF 2021-7-18 22-19-14.gif"><br>右下角有个<del>网抑云阴乐（雾）</del>网易云音乐播放器~<br>还有经过我自己的搜索，搞的一个没啥卵用的效果：<br><img src="https://i.loli.net/2021/07/18/4lxhyjBXvOdauKr.gif" alt="GIF 2021-7-18 22-18-02.gif"></p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>至此，我的博客就建好了。<strong>对于网站主体，我一行代码都没敲~</strong><br>值得一提的是，这个主题提供了一些不错的自定义选项，<del>用于装逼</del>用于美化。比如：<br>这是船新的 Cursor 和点击特效~<br><img src="https://i.loli.net/2021/07/18/vjWGLKoZxzAQ6H9.gif" alt="哇哦，酷炫~"><br>右下角有个<del>网抑云阴乐（雾）</del>网易云音乐播放器~<br>还有经过我自己的搜索，搞的一个没啥卵用的效果：<br><img src="https://i.loli.net/2021/07/18/4lxhyjBXvOdauKr.gif" alt="其实就是忽悠~"></p>
 <blockquote>
 <p>PS：在撰写本文时，我正在使用 Windows 11，GIF 图片中左侧和下方的阴影为使用 GifCam 录制时因未完全适配 Windows 11 的圆角窗口产生的 BUG。</p>
 </blockquote>
 <hr>
 <p>很快我就要上高三，这一年博客应该不会有太多新内容。<br>我本人对 UI 设计比较感兴趣，在<a href="https://bbs.deepin.org/">深度科技论坛</a>上我曾发过一些 [PPT SHOW](就是拿 PowerPoint 做 UI)；对于 Linux，我也有一些了解和浅见。上大学以后，我会把我的一些想法分享在博客上，敬请期待~</p>
-<h3 id="那么，好了。就从这里开始吧。"><a href="#那么，好了。就从这里开始吧。" class="headerlink" title="那么，好了。就从这里开始吧。"></a>那么，好了。就从这里开始吧。</h3><p><img src="https://i.loli.net/2021/07/18/bw5tpSu7WPIqkOv.png" alt="20210718103859464.png"></p>
+<h3 id="那么，好了。就从这里开始吧。"><a href="#那么，好了。就从这里开始吧。" class="headerlink" title="那么，好了。就从这里开始吧。"></a>那么，好了。就从这里开始吧。</h3><p><img src="https://i.loli.net/2021/07/18/bw5tpSu7WPIqkOv.png" alt="“这是一场盛大的结束，也是一场盛大的开始。”"></p>
 ]]></content>
       <categories>
         <category>个人</category>
